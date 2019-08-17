@@ -1,0 +1,55 @@
+table {
+    border-collapse: collapse;
+    border: 0px solid black;
+    width: 95%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Tahoma, Verdana, Arial, Sans-serif;
+}
+
+tr:nth-child(odd) {background-color: #93d154}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+tr.hRowL:nth-child(odd) {background-color: #FFFFFF}
+
+td.hRowL {
+    border: 0px solid black;
+    text-align: left;
+    vertical-align: top;
+}
+
+tr.hRowR:nth-child(odd) {background-color: #FFFFFF}
+
+td.hRowR {
+    border: 0px solid black;
+    text-align: right;
+    vertical-align: top;
+}
+
+tr.RowGreen {background-color: #93d154}
+
+input, select {width: 90%}
