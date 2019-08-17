@@ -6,6 +6,28 @@
 
 <body>
 
+<?php
 
+echo "<TABLE BORDER=1 ALIGN=CENTER>";
+
+echo "<TR>".chr(10);
+echo "<TH>".chr(10)."id"."</TH>".chr(10);
+echo "<TH>".chr(10)."Cliente"."</TH>".chr(10);
+echo "<TH>".chr(10)."Interni"."</TH>".chr(10);
+echo "</TR>".chr(10);
+
+echo "<TR>".chr(10);
+echo "<TD>".chr(10).$row['id']."</TD>".chr(10);
+echo "<TD>".chr(10)."<A HREF=\"clienti.php?cliente=".$row['id']."\">".$row['cliente']."</A></TD>".chr(10);
+echo "<TD>".chr(10).$row['interni']."/".$row['max_interni']."</TD>".chr(10);
+echo "</TR>".chr(10);
+
+echo "</TABLE>".chr(10);
+
+
+
+
+?>
+	
 </body>
 </html>
